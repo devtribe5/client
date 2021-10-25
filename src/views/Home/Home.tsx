@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from 'logo.svg'
 import 'views/Home/Home.scss'
+import SwiperCharacter from './components/SwiperCharacter/SwiperCharacter'
+import SwiperGameFeature from './components/SwiperGameFeature'
 
 function Home() {
     return (
@@ -30,14 +32,20 @@ function Home() {
                     <h1 className='title'>
                         <img src={'assets/images/home/p2-tt-en.png'} className='home-section-bg' alt='bg-2' />
                     </h1>
+                    <div id='swiper-character'>
+                        <SwiperCharacter />
+                    </div>
                 </div>
             </section>
             <section className='section-group'>
                 <img src={'assets/images/home/p3-bg.jpeg'} className='home-section-bg' alt='bg-3' />
                 <div className='title-wrap'>
                     <h1 className='title'>
-                        <img src={'assets/images/home/p2-tt-en.png'} className='home-section-bg' alt='bg-2' />
+                        <img src={'assets/images/home/p3-tt-en.png'} className='home-section-bg' alt='bg-2' />
                     </h1>
+                    <div id='swiper-character'>
+                        <SwiperGameFeature />
+                    </div>
                 </div>
             </section>
         </div>
