@@ -43,7 +43,7 @@ function Home() {
                     <h1 className='title'>
                         <img src={'assets/images/home/p3-tt-en.png'} className='home-section-bg' alt='bg-2' />
                     </h1>
-                    <div id='swiper-character'>
+                    <div id='swiper-feature'>
                         <SwiperGameFeature />
                     </div>
                 </div>
