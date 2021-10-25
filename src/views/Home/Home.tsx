@@ -24,11 +24,21 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <section className=''>
+            <section className='section-group'>
                 <img src={'assets/images/home/p2-bg.jpeg'} className='home-section-bg' alt='bg-2' />
+                <div className='title-wrap'>
+                    <h1 className='title'>
+                        <img src={'assets/images/home/p2-tt-en.png'} className='home-section-bg' alt='bg-2' />
+                    </h1>
+                </div>
             </section>
-            <section className=''>
+            <section className='section-group'>
                 <img src={'assets/images/home/p3-bg.jpeg'} className='home-section-bg' alt='bg-3' />
+                <div className='title-wrap'>
+                    <h1 className='title'>
+                        <img src={'assets/images/home/p2-tt-en.png'} className='home-section-bg' alt='bg-2' />
+                    </h1>
+                </div>
             </section>
         </div>
     )

@@ -50,6 +50,19 @@ img { display: block; }
 
         }
     }
+    .title-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .title {
+        position: absolute;
+        width: 60%;
+        z-index: 100;
+        max-width: 400px;
+        height: 60px;
+        top: 0;
+      }
+    }
 }
 
 
