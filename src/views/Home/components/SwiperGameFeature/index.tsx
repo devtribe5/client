@@ -14,7 +14,7 @@ import SwiperCore, { EffectCoverflow, Pagination } from 'swiper'
 // install Swiper modules
 SwiperCore.use([EffectCoverflow, Pagination])
 
-export default function App() {
+export default function SwiperGameFeature() {
     return (
         <>
             <Swiper
@@ -23,7 +23,7 @@ export default function App() {
                 centeredSlides={true}
                 slidesPerView={3}
                 coverflowEffect={{
-                    rotate: 50,
+                    rotate: 5,
                     stretch: 0,
                     depth: 100,
                     modifier: 1,

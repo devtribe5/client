@@ -8,7 +8,7 @@ function Home() {
     return (
         <div className='App'>
             <section className='section-group'>
-                <img src={'assets/images/home/p1-bg.jpg'} className='home-section-bg' alt='logo' />
+                <img src={'assets/images/home/p1-bg.png'} className='home-section-bg' alt='logo' />
                 <div className='header-group'>
                     <div className='logo'>
                         <img src={'assets/images/home/logo.png'} className='home-section-bg' alt='logo' />
@@ -44,7 +44,8 @@ function Home() {
                         <img src={'assets/images/home/p3-tt-en.png'} className='home-section-bg' alt='bg-2' />
                     </h1>
                     <div id='swiper-feature'>
-                        <SwiperGameFeature />
+                        {/* <SwiperGameFeature /> */}
+                        <SwiperCharacter />
                     </div>
                 </div>
             </section>
